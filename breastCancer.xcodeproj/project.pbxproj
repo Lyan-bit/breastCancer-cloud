@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023135A129AD510900F28416 /* OclFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231358F29AD510800F28416 /* OclFile.swift */; };
+		023135A229AD510900F28416 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359029AD510800F28416 /* ContentView.swift */; };
+		023135A329AD510900F28416 /* ListBreastCancerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359129AD510800F28416 /* ListBreastCancerScreen.swift */; };
+		023135A429AD510900F28416 /* FirebaseDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359229AD510800F28416 /* FirebaseDB.swift */; };
+		023135A529AD510900F28416 /* FileAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359329AD510800F28416 /* FileAccessor.swift */; };
+		023135A629AD510900F28416 /* CreateBreastCancerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359429AD510800F28416 /* CreateBreastCancerScreen.swift */; };
+		023135A729AD510900F28416 /* BreastCancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359529AD510800F28416 /* BreastCancer.swift */; };
+		023135A829AD510900F28416 /* ClassifyBreastCancerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359629AD510800F28416 /* ClassifyBreastCancerScreen.swift */; };
+		023135A929AD510900F28416 /* ListBreastCancerRowScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359729AD510800F28416 /* ListBreastCancerRowScreen.swift */; };
+		023135AA29AD510900F28416 /* Ocl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359829AD510900F28416 /* Ocl.swift */; };
+		023135AB29AD510900F28416 /* BreastCancerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359929AD510900F28416 /* BreastCancerVO.swift */; };
+		023135AC29AD510900F28416 /* ModelFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359A29AD510900F28416 /* ModelFacade.swift */; };
+		023135AD29AD510900F28416 /* ClassifyBreastCancerVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359B29AD510900F28416 /* ClassifyBreastCancerVO.swift */; };
+		023135AE29AD510900F28416 /* OclType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359C29AD510900F28416 /* OclType.swift */; };
+		023135AF29AD510900F28416 /* BreastcancerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359D29AD510900F28416 /* BreastcancerMain.swift */; };
+		023135B029AD510900F28416 /* BreastCancerBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359E29AD510900F28416 /* BreastCancerBean.swift */; };
+		023135B129AD510900F28416 /* ModelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231359F29AD510900F28416 /* ModelParser.swift */; };
+		023135B229AD510900F28416 /* BreastCancerDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023135A029AD510900F28416 /* BreastCancerDAO.swift */; };
+		02FD996C299735C800569C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FD996B299735C800569C02 /* Assets.xcassets */; };
+		02FD996F299735C800569C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02FD996E299735C800569C02 /* Preview Assets.xcassets */; };
+		02FD9976299735DB00569C02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02FD9975299735DB00569C02 /* GoogleService-Info.plist */; };
+		02FD9978299735E500569C02 /* cancer.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 02FD9977299735E500569C02 /* cancer.tflite */; };
+		1599741D3E8F2846DD369C26 /* Pods_breastCancer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5929A6A41E69C9CC02FDA013 /* Pods_breastCancer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0231358F29AD510800F28416 /* OclFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclFile.swift; sourceTree = "<group>"; };
+		0231359029AD510800F28416 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0231359129AD510800F28416 /* ListBreastCancerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBreastCancerScreen.swift; sourceTree = "<group>"; };
+		0231359229AD510800F28416 /* FirebaseDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDB.swift; sourceTree = "<group>"; };
+		0231359329AD510800F28416 /* FileAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAccessor.swift; sourceTree = "<group>"; };
+		0231359429AD510800F28416 /* CreateBreastCancerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBreastCancerScreen.swift; sourceTree = "<group>"; };
+		0231359529AD510800F28416 /* BreastCancer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastCancer.swift; sourceTree = "<group>"; };
+		0231359629AD510800F28416 /* ClassifyBreastCancerScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyBreastCancerScreen.swift; sourceTree = "<group>"; };
+		0231359729AD510800F28416 /* ListBreastCancerRowScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListBreastCancerRowScreen.swift; sourceTree = "<group>"; };
+		0231359829AD510900F28416 /* Ocl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ocl.swift; sourceTree = "<group>"; };
+		0231359929AD510900F28416 /* BreastCancerVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastCancerVO.swift; sourceTree = "<group>"; };
+		0231359A29AD510900F28416 /* ModelFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelFacade.swift; sourceTree = "<group>"; };
+		0231359B29AD510900F28416 /* ClassifyBreastCancerVO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyBreastCancerVO.swift; sourceTree = "<group>"; };
+		0231359C29AD510900F28416 /* OclType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OclType.swift; sourceTree = "<group>"; };
+		0231359D29AD510900F28416 /* BreastcancerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastcancerMain.swift; sourceTree = "<group>"; };
+		0231359E29AD510900F28416 /* BreastCancerBean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastCancerBean.swift; sourceTree = "<group>"; };
+		0231359F29AD510900F28416 /* ModelParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelParser.swift; sourceTree = "<group>"; };
+		023135A029AD510900F28416 /* BreastCancerDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreastCancerDAO.swift; sourceTree = "<group>"; };
+		02FD9964299735C600569C02 /* breastCancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breastCancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02FD996B299735C800569C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02FD996E299735C800569C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02FD9975299735DB00569C02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		02FD9977299735E500569C02 /* cancer.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cancer.tflite; sourceTree = "<group>"; };
+		02FD99792997360700569C02 /* breastCancer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "breastCancer-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F36C5F74135306B9C978391 /* Pods-breastCancer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breastCancer.debug.xcconfig"; path = "Target Support Files/Pods-breastCancer/Pods-breastCancer.debug.xcconfig"; sourceTree = "<group>"; };
+		5929A6A41E69C9CC02FDA013 /* Pods_breastCancer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breastCancer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86ED323BD980C3901800A69B /* Pods-breastCancer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breastCancer.release.xcconfig"; path = "Target Support Files/Pods-breastCancer/Pods-breastCancer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02FD9961299735C600569C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1599741D3E8F2846DD369C26 /* Pods_breastCancer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FD995B299735C600569C02 = {
+			isa = PBXGroup;
+			children = (
+				02FD9966299735C600569C02 /* breastCancer */,
+				02FD9965299735C600569C02 /* Products */,
+				4AF1ADCA8D38B5D86F99C3AF /* Pods */,
+				9B0141EAD24F13875994B85F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02FD9965299735C600569C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02FD9964299735C600569C02 /* breastCancer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02FD9966299735C600569C02 /* breastCancer */ = {
+			isa = PBXGroup;
+			children = (
+				0231359529AD510800F28416 /* BreastCancer.swift */,
+				0231359E29AD510900F28416 /* BreastCancerBean.swift */,
+				023135A029AD510900F28416 /* BreastCancerDAO.swift */,
+				0231359D29AD510900F28416 /* BreastcancerMain.swift */,
+				0231359929AD510900F28416 /* BreastCancerVO.swift */,
+				0231359629AD510800F28416 /* ClassifyBreastCancerScreen.swift */,
+				0231359B29AD510900F28416 /* ClassifyBreastCancerVO.swift */,
+				0231359029AD510800F28416 /* ContentView.swift */,
+				0231359429AD510800F28416 /* CreateBreastCancerScreen.swift */,
+				0231359329AD510800F28416 /* FileAccessor.swift */,
+				0231359229AD510800F28416 /* FirebaseDB.swift */,
+				0231359729AD510800F28416 /* ListBreastCancerRowScreen.swift */,
+				0231359129AD510800F28416 /* ListBreastCancerScreen.swift */,
+				0231359A29AD510900F28416 /* ModelFacade.swift */,
+				0231359F29AD510900F28416 /* ModelParser.swift */,
+				0231359829AD510900F28416 /* Ocl.swift */,
+				0231358F29AD510800F28416 /* OclFile.swift */,
+				0231359C29AD510900F28416 /* OclType.swift */,
+				02FD9975299735DB00569C02 /* GoogleService-Info.plist */,
+				02FD9977299735E500569C02 /* cancer.tflite */,
+				02FD996B299735C800569C02 /* Assets.xcassets */,
+				02FD996D299735C800569C02 /* Preview Content */,
+				02FD99792997360700569C02 /* breastCancer-Bridging-Header.h */,
+			);
+			path = breastCancer;
+			sourceTree = "<group>";
+		};
+		02FD996D299735C800569C02 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02FD996E299735C800569C02 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AF1ADCA8D38B5D86F99C3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F36C5F74135306B9C978391 /* Pods-breastCancer.debug.xcconfig */,
+				86ED323BD980C3901800A69B /* Pods-breastCancer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B0141EAD24F13875994B85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5929A6A41E69C9CC02FDA013 /* Pods_breastCancer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02FD9963299735C600569C02 /* breastCancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FD9972299735C800569C02 /* Build configuration list for PBXNativeTarget "breastCancer" */;
+			buildPhases = (
+				24B34D1D2C8CA10DC9D3DF57 /* [CP] Check Pods Manifest.lock */,
+				02FD9960299735C600569C02 /* Sources */,
+				02FD9961299735C600569C02 /* Frameworks */,
+				02FD9962299735C600569C02 /* Resources */,
+				40DDF4C6BCFD4CEB88940393 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = breastCancer;
+			productName = breastCancer;
+			productReference = 02FD9964299735C600569C02 /* breastCancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02FD995C299735C600569C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					02FD9963299735C600569C02 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 02FD995F299735C600569C02 /* Build configuration list for PBXProject "breastCancer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02FD995B299735C600569C02;
+			productRefGroup = 02FD9965299735C600569C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02FD9963299735C600569C02 /* breastCancer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02FD9962299735C600569C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FD996F299735C800569C02 /* Preview Assets.xcassets in Resources */,
+				02FD996C299735C800569C02 /* Assets.xcassets in Resources */,
+				02FD9976299735DB00569C02 /* GoogleService-Info.plist in Resources */,
+				02FD9978299735E500569C02 /* cancer.tflite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B34D1D2C8CA10DC9D3DF57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-breastCancer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40DDF4C6BCFD4CEB88940393 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-breastCancer/Pods-breastCancer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-breastCancer/Pods-breastCancer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-breastCancer/Pods-breastCancer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02FD9960299735C600569C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023135A629AD510900F28416 /* CreateBreastCancerScreen.swift in Sources */,
+				023135A329AD510900F28416 /* ListBreastCancerScreen.swift in Sources */,
+				023135A729AD510900F28416 /* BreastCancer.swift in Sources */,
+				023135B129AD510900F28416 /* ModelParser.swift in Sources */,
+				023135A529AD510900F28416 /* FileAccessor.swift in Sources */,
+				023135B029AD510900F28416 /* BreastCancerBean.swift in Sources */,
+				023135AE29AD510900F28416 /* OclType.swift in Sources */,
+				023135A829AD510900F28416 /* ClassifyBreastCancerScreen.swift in Sources */,
+				023135AC29AD510900F28416 /* ModelFacade.swift in Sources */,
+				023135AD29AD510900F28416 /* ClassifyBreastCancerVO.swift in Sources */,
+				023135A229AD510900F28416 /* ContentView.swift in Sources */,
+				023135AB29AD510900F28416 /* BreastCancerVO.swift in Sources */,
+				023135AF29AD510900F28416 /* BreastcancerMain.swift in Sources */,
+				023135A929AD510900F28416 /* ListBreastCancerRowScreen.swift in Sources */,
+				023135A429AD510900F28416 /* FirebaseDB.swift in Sources */,
+				023135B229AD510900F28416 /* BreastCancerDAO.swift in Sources */,
+				023135AA29AD510900F28416 /* Ocl.swift in Sources */,
+				023135A129AD510900F28416 /* OclFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02FD9970299735C800569C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02FD9971299735C800569C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02FD9973299735C800569C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F36C5F74135306B9C978391 /* Pods-breastCancer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"breastCancer/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyanalwakeel.breastCancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "breastCancer/breastCancer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02FD9974299735C800569C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86ED323BD980C3901800A69B /* Pods-breastCancer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"breastCancer/Preview Content\"";
+				DEVELOPMENT_TEAM = NR2XNW22UL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyanalwakeel.breastCancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "breastCancer/breastCancer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02FD995F299735C600569C02 /* Build configuration list for PBXProject "breastCancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD9970299735C800569C02 /* Debug */,
+				02FD9971299735C800569C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FD9972299735C800569C02 /* Build configuration list for PBXNativeTarget "breastCancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FD9973299735C800569C02 /* Debug */,
+				02FD9974299735C800569C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02FD995C299735C600569C02 /* Project object */;
+}
