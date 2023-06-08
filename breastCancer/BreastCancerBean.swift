@@ -13,39 +13,39 @@ class BreastCancerBean {
   	errorList = [String]()
   }
 
-  func isCreateBreastCancerError(id: String, age: Int, bmi: Float, glucose: Float, insulin: Float, homa: Float, leptin: Float, adiponectin: Float, resistin: Float, mcp: Float, outcome: String) -> Bool { 
+  func isCreateBreastCancerError(breast: BreastCancerVO) -> Bool { 
   	resetData() 
-  	if id == "" {
+  	if breast.id == "" {
   		errorList.append("id cannot be empty")
   	}
-  	if age != 0 {
+  	if breast.age != 0 {
 	  		errorList.append("age cannot be zero")
 	  	}
-  	if bmi != 0 {
+  	if breast.bmi != 0 {
 	  		errorList.append("bmi cannot be zero")
 	  	}
-  	if glucose != 0 {
+  	if breast.glucose != 0 {
 	  		errorList.append("glucose cannot be zero")
 	  	}
-  	if insulin != 0 {
+  	if breast.insulin != 0 {
 	  		errorList.append("insulin cannot be zero")
 	  	}
-  	if homa != 0 {
+  	if breast.homa != 0 {
 	  		errorList.append("homa cannot be zero")
 	  	}
-  	if leptin != 0 {
+  	if breast.leptin != 0 {
 	  		errorList.append("leptin cannot be zero")
 	  	}
-  	if adiponectin != 0 {
+  	if breast.adiponectin != 0 {
 	  		errorList.append("adiponectin cannot be zero")
 	  	}
-  	if resistin != 0 {
+  	if breast.resistin != 0 {
 	  		errorList.append("resistin cannot be zero")
 	  	}
-  	if mcp != 0 {
+  	if breast.mcp != 0 {
 	  		errorList.append("mcp cannot be zero")
 	  	}
-  	if outcome == "" {
+  	if breast.outcome == "" {
   		errorList.append("outcome cannot be empty")
   	}
 
